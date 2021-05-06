@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-size: 0;
+    margin: 100px;
+}
+    
+.parent-block {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+div {
+    display: inline-block;
+}
+
+.circle {
+    width: 33.33%;
+    height: 33.33%;
+    border-radius: 50%;
+    background-color: red;
+    position:absolute;
+}
+
+.circle1:hover {
+    background-color: teal;
+    z-index: 1;
+}
+
+.circle2 {
+    margin: 0 0 0 66.66%;
+}
+.circle2:hover {
+    background-color: rgb(241, 7, 230);
+    z-index: 1;
+}
+
+.circle3 {
+    margin: 66.66% 66.66% 0 0;
+}
+.circle3:hover {
+    background-color: rgb(255, 230, 0);
+    z-index: 1;
+}
+
+.circle4 {
+    margin: 66.66% 0 0 66.66% ;
+}
+.circle4:hover {
+    background-color: rgb(23, 255, 2);
+    z-index: 1;
+}
+
+.square {
+    width: 66.66%;
+    height: 66.66%;
+    background-color: blue;
+    position: absolute;
+    margin: 16.66%;
+}
+.square:hover {
+    background-color: turquoise;
+    z-index: 1;
+}
+
+.square-radius-corner {
+    width: 33.33%;
+    height: 33.33%;
+    border-radius: 5%;
+    background-color: orange;
+    position: absolute;
+    margin: 33.33%;
+}
